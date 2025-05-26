@@ -83,10 +83,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESCAPE  &kp Q      &kp W         &kp E                 &kp R             &kp T                     &kp Y       &kp U  &kp I      &kp O    &kp MINUS  &kp LC(I)
-&mo 4       &kp A      &lt 5 S       &lt 7 D               &kp F             &kp G                     &kp H       &kp J  &lt 1 K    &kp L    &lt 3 P    &kp LC(SQT)
-&mo 6       &kp Z      &kp X         &kp C                 &kp V             &kp B                     &kp N       &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp LANGUAGE_2
-&kp LGUI    &kp LCTRL  &lt 2 DELETE  &mt LEFT_SHIFT SPACE  &lt 6 LANGUAGE_1             &kp BACKSPACE  &kp RETURN                                        &shimo
+&kp ESCAPE  &kp Q      &kp W        &kp E           &kp R      &kp T                     &kp Y       &kp U  &kp I      &kp O    &kp MINUS  &kp LC(I)
+&mo 4       &kp A      &lt 5 S      &lt 7 D         &kp F      &kp G                     &kp H       &kp J  &kp K      &lt 1 L  &lt 3 P    &kp LC(T)
+&mo 6       &kp Z      &kp X        &kp C           &kp V      &kp B                     &kp N       &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp LANGUAGE_2
+&kp LGUI    &kp LCTRL  &lt 2 SPACE  &kp LANGUAGE_2  &kp LANG1             &kp BACKSPACE  &kp RETURN                                        &shimo
             >;
         };
 
@@ -123,10 +123,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&none   &none           &kp UP_ARROW    &none      &none   &none              &kp N6         &kp N7     &kp N8     &kp N9  &kp N0     &none
-&none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none   &none              &kp PAGE_UP    &mkp LCLK  &mkp RCLK  &none   &mkp MCLK  &none
-&none   &none           &none           &none      &none   &none              &kp PAGE_DOWN  &none      &none      &none   &none      &none
-&trans  &trans          &trans          &trans     &trans             &trans  &trans                                                  &none
+&none   &none   &none      &none       &none      &none              &none          &none      &none      &kp BACKSPACE  &none      &none
+&none   &none   &kp LS(X)  &kp LC(C)   &kp LC(V)  &none              &kp PAGE_UP    &mkp LCLK  &mkp RCLK  &none          &mkp MCLK  &none
+&none   &none   &none      &none       &none      &none              &kp PAGE_DOWN  &none      &none      &kp DELETE     &none      &none
+&trans  &trans  &trans     &kp RETURN  &trans                &trans  &trans                                                         &none
             >;
         };
 
