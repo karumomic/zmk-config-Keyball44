@@ -40,7 +40,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: ArrowLayer}
-  - LANGUAGE 2
+  - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-shift$$'}
   - LANG1
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: RETURN, h: NUM}
@@ -108,7 +108,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Sft+V
   - '%'
   - (
   - )
@@ -184,8 +184,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Z
+  - Ctl+Y
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -198,7 +198,7 @@ layers:
   - Sft+X
   - Ctl+C
   - Ctl+V
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Sft+V
   - PgUp
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
@@ -274,8 +274,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Z
+  - Ctl+Y
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -288,7 +288,7 @@ layers:
   - Sft+X
   - Ctl+C
   - Ctl+V
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Sft+V
   - PgUp
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
@@ -319,13 +319,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Z
+  - Ctl+Y
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -333,7 +333,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - Ctl+V
+  - Ctl+Sft+V
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -349,7 +349,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
