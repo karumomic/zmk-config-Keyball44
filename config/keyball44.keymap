@@ -141,7 +141,7 @@
         };
 
         SNIPELAYER {
-            label = "MOUSE";
+            label = "snipe";
             bindings = <
 &trans  &trans  &trans     &trans      &trans     &trans              &trans         &trans     &trans     &kp BACKSPACE  &trans     &trans
 &trans  &trans  &kp LS(X)  &kp LC(C)   &kp LC(V)  &trans              &kp PAGE_UP    &mkp LCLK  &mkp RCLK  &trans         &mkp MCLK  &trans
